@@ -1,3 +1,6 @@
+# 2018 - 12 - 20
+# SSAFY 쪽지 알림함 확인하기
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
@@ -83,5 +86,4 @@ def Notice_Crawling () :
 
 if __name__ == '__main__':
     print("here")
-    practice()
     #Notice_Crawling()
